@@ -1,7 +1,7 @@
-import { Analytics } from '@vercel/analytics/next';
 import { Public_Sans } from 'next/font/google';
 import localFont from 'next/font/local';
 import { headers } from 'next/headers';
+import { Analytics } from '@vercel/analytics/next';
 import { ThemeProvider } from '@/components/app/theme-provider';
 import { cn } from '@/lib/shadcn/utils';
 import { getAppConfig, getStyles } from '@/lib/utils';
